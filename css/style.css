@@ -130,7 +130,14 @@ h3 {
     font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    color: black;
 }
+
 .cases .devices p {
     font-weight: 300;
     font-size: 1.313rem;
@@ -142,13 +149,10 @@ h3 {
     height: 4em;
 
 }
-h3 {
-    display: block;
-    font-size: 1.17em;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
-    color: black;
+
+ul.devices {
+	margin: 0 auto;
+	overflow: hidden;
+	padding-left: 0;
+	width: 970px;
 }
