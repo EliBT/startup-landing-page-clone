@@ -25,9 +25,7 @@ body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
-div {
-	border: 1px solid Chocolate;
-}
+
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
